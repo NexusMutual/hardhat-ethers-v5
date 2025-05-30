@@ -1,16 +1,16 @@
 {
-  "name": "hardhat-ethers-v5",
+  "name": "hardhat-ethers-v6",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shark0der",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.8.0"
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "ethers": "^6.14.3"
   }
 }
